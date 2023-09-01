@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Calendar</title>
+  <!-- Replace "font-awesome.css" with the actual CSS file for FontAwesome or your custom icon font -->
+  <script src="https://kit.fontawesome.com/ed65ced1fc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dynamic Calendar</h1>
+    <div class="clock">
+      <span class="clock-time">12:00:00 AM</span>
+    </div>
+    <div class="calendar blue-theme">
+      <div class="header">
+        <button id="prev-btn">&lt;</button>
+        <div id="month-year">July 2023</div>
+        <button id="next-btn">&gt;</button>
+      </div>
+      <div class="days">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+      </div>
+      <div id="dates" class="dates">
+        <!-- JavaScript code will populate the calendar dates here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
